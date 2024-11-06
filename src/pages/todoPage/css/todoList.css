@@ -1,0 +1,20 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.todo-list li {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.todo-list li:hover {
+    background-color: #e9ecef;
+}
+
+.todo-list li:last-child {
+    border-bottom: none;
+}
